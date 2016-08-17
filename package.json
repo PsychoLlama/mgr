@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "Jesse Gibson <jesse@gundb.io> (http://techllama.com)",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-eslint": "^6.1.2",
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "babel-runtime": "^6.11.6",
-    "bluebird": "^3.4.1"
+    "bluebird": "^3.4.1",
+    "uuid": "^2.0.2"
   }
 }
