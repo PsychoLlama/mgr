@@ -1,13 +1,13 @@
 {
   "name": "mgr",
   "version": "1.0.0",
-  "description": "",
+  "description": "*For easily managing slave processes.*",
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha src/**/*test.js --opts ./mocha.opts",
     "lint": "eslint src/",
     "build": "babel src/ -d dist/",
-		"prepublish": "npm run build"
+    "prepublish": "npm run build"
   },
   "keywords": [
     "multi-threaded",
@@ -16,7 +16,7 @@
     "promise",
     "fork",
     "child-process"
-	],
+  ],
   "author": "Jesse Gibson <jesse@gundb.io> (http://techllama.com)",
   "license": "MIT",
   "devDependencies": {
@@ -35,5 +35,13 @@
   "dependencies": {
     "babel-runtime": "^6.11.6",
     "bluebird": "^3.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PsychoLlama/mgr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PsychoLlama/mgr/issues"
+  },
+  "homepage": "https://github.com/PsychoLlama/mgr#readme"
 }
