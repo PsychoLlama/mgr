@@ -6,6 +6,7 @@
   "scripts": {
     "test": "mocha src/**/*test.js --opts ./mocha.opts",
     "lint": "eslint src/",
+    "tests": "npm run test && npm run lint",
     "build": "babel src/ -d dist/",
     "prepublish": "npm run build"
   },
