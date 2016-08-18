@@ -1,6 +1,10 @@
 # mgr
 *Easier multithreading for Node.*
 
+[![Travis branch](https://img.shields.io/travis/PsychoLlama/mgr/master.svg?style=flat-square)](https://travis-ci.org/PsychoLlama/mgr)
+[![npm](https://img.shields.io/npm/dt/mgr.svg?style=flat-square)](https://www.npmjs.com/package/mgr)
+[![npm](https://img.shields.io/npm/l/mgr.svg?style=flat-square)](https://github.com/PsychoLlama/mgr/blob/master/LICENSE)
+
 ## Why?
 Because multi-threaded node applications are unwieldy to work with, and I needed to work with them.
 
@@ -68,6 +72,39 @@ slave.run('encrypt', {
 ```
 
 > To keep stuff simple, only one argument is allowed.
+
+## Installing
+
+**From npm**
+```sh
+$ npm install mgr --save
+```
+
+**From GitHub**
+```sh
+$ git clone https://github.com/PsychoLlama/mgr.git
+$ cd mgr
+$ npm install
+$ npm run build
+```
+
+## Running tests
+
+First, install from GitHub. npm only has the compiled code.
+
+Be sure to run the build first:
+```sh
+# Run once.
+$ npm run build
+
+# OPTIONAL: watch for changes.
+$ npm run build -- --watch
+```
+
+Now you can run the tests.
+```sh
+$ npm test
+```
 
 -----
 <dl>
