@@ -1,9 +1,12 @@
-# mgr
+# [UNMAINTAINED] mgr
 *Easier multithreading for Node.*
 
 [![Travis branch](https://img.shields.io/travis/PsychoLlama/mgr/master.svg?style=flat-square)](https://travis-ci.org/PsychoLlama/mgr)
 [![npm](https://img.shields.io/npm/dt/mgr.svg?style=flat-square)](https://www.npmjs.com/package/mgr)
 [![npm](https://img.shields.io/npm/l/mgr.svg?style=flat-square)](https://github.com/PsychoLlama/mgr/blob/master/LICENSE)
+
+## Maintenance Notice
+I've abandon this library because it's dumb.
 
 ## Why?
 Because multi-threaded node applications are unwieldy to work with, and I needed to work with them.
